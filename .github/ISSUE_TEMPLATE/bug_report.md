@@ -1,6 +1,20 @@
-# contents of the bug
-What kind of problems do you have?
-# Reproduction Method
-Where did you click? & What's the result?
-# the result of expectations
-How should it work originally?
+---
+name: Bug Report
+about: 문제점을 보고하여 서비스 개선에 도움을 주세요.
+title: "[BUG] "
+labels: bug
+assignees: ''
+
+---
+
+## 버그 내용
+어떤 문제가 발생했나요? 최대한 자세히 적어주세요.
+
+## 재현 방법
+어떻게 하면 해당 문제를 똑같이 볼 수 있나요?
+1. 어디를 클릭했나요?
+2. 어떤 순서로 행동했나요?
+3. 결과가 어떻게 나타났나요?
+
+## 기대 결과
+원래는 어떻게 작동해야 하나요? (정상적인 동작 모습)
