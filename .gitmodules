@@ -1,7 +1,3 @@
-	[submodule "tools/SMC-ObjectDetection"]
-	path = tools/SMC-ObjectDetection
-	url = https://github.com/MiruHeon/SMC-ObjectDetection
-		branch = main
 [submodule "SMC-ObjectDetection"]
 	path = SMC-ObjectDetection
 	url = https://github.com/MiruHeon/SMC-ObjectDetection
