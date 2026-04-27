@@ -1,0 +1,20 @@
+name: "Close Stale Issues"
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close Stale Issues
+        uses: actions/stale@v9
+        with:
+          repo-token: ${{ github.token }}
+          stale-issue-message: "This issue has been marked as stale after a long period of inactivity. If you need to continue, please leave a comment."
+          stale-pr-message: "This PR is going to be closed soon because there has been no activity for a long time."
+          close-issue-message: "There are no activities for a long time...."
+          days-before-stale: 30
+          days-before-close: 7
+          exempt-issue-labels: "bug,important"
