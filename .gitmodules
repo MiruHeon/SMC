@@ -1,1 +1,4 @@
 
+[submodule "tools/SMC-ObjectDetection"]
+	path = tools/SMC-ObjectDetection
+	url = https://github.com/MiruHeon/SMC-ObjectDetection
