@@ -43,7 +43,7 @@ class GroundSystemCore(QMainWindow):
 
     def initUI(self):
         self.setWindowTitle("Ground System Core")
-        self.setFixedSize(600, 400)
+        self.setFixedSize(600, 350)
         self.setStyleSheet("background-color: #f0f0f0;")
 
         central_widget = QWidget()
