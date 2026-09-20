@@ -11,23 +11,21 @@ SMC(Space Mission Core)는 통신 데이터 중계 소프트웨어로, wifi 상�
 제작에는 Python과 C가 사용되었으며, 통신 방식은 시리얼통신(UART), 115200 bps로 단일화 했습니다.
 이런 SMC는 GSC(지상국용), SSC(위성용)으로 나누어 지며, 위성용은 극한의 메모리 효율을 내야 하므로, C로 작성되었으며, 지상국용은 데이터를 쉽게 중계하기 위해, Python과 pyqt5 라이브러리를 활용하여 제작하였습니다.
 
-## Architecture
-데이터 전송(위성)
-
-↓
-
-데이터 확인(지상국)
-
-↓
-
-데이터 시각화(지상국)
-
 <p align="center">
   <img src="https://github.com/MiruHeon/Normal-Project/blob/main/Ground%20sys.png?raw=true" alt="GSC" width="500" />
 </p>
 <p align="center">
   <img src="https://github.com/MiruHeon/Normal-Project/blob/main/gsc2.png?raw=true" alt="GSC2" width="500" />
 </p>
+
+## Architecture
+```
+데이터 전송(위성)
+      ↓
+데이터 확인(지상국)
+      ↓
+데이터 시각화(지상국)
+```
 
 ## 개발 팀원 소개
 | 류용헌 |
