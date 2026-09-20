@@ -21,7 +21,5 @@ SMC(Space Mission Core)는 통신 데이터 중계 소프트웨어로, wifi 상�
 | <img src="https://github.com/MiruHeon/Normal-Project/blob/main/profile.png?raw=true" alt="류용헌" width="150"> |
 | PL |
 
-# 사용 예시
-
-# 참고
+## 참고
 NASA cFS 프레임워크
