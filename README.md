@@ -14,6 +14,9 @@ SMC(Space Mission Core)는 통신 데이터 중계 소프트웨어로, wifi 상�
 <p align="center">
   <img src="https://github.com/MiruHeon/Normal-Project/blob/main/Ground%20sys.png?raw=true" alt="GSC" width="500" />
 </p>
+<p align="center">
+  <img src="https://github.com/MiruHeon/Normal-Project/blob/main/gsc2.png?raw=true" alt="GSC2" width="500" />
+</p>
 
 ## 개발 팀원 소개
 | 류용헌 |
